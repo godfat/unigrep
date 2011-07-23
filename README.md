@@ -1,4 +1,5 @@
 # Unigrep
+
 by Lin Jen-Shin <http://godfat.org>
 
 ## LINKS:
@@ -8,12 +9,16 @@ by Lin Jen-Shin <http://godfat.org>
 
 ## DESCRIPTION:
 
+Print Unicode information matching description. (grep Unicode data)
+
+* Inspired by App::Uni <https://metacpan.org/module/App::Uni>
+* Data downloaded from <ftp://ftp.unicode.org/Public/UNIDATA/UnicodeData.txt>
 
 ## REQUIREMENTS:
 
-* Tested with MRI (official ruby) 1.9.2, 1.8.7, and trunk
-* Tested with Rubinius (rbx) 1.2.3
-* Tested with JRuby 1.6.2
+* Tested with MRI (official ruby) 1.9.2, 1.8.7
+* Tested with Rubinius (rbx) 1.2.4
+* Tested with JRuby 1.6.3
 
 ## INSTALLATION:
 
@@ -21,7 +26,14 @@ by Lin Jen-Shin <http://godfat.org>
 
 ## EXAMPLE:
 
-
+    $ unigrep snow
+       2603    ‚òÉ    SNOWMAN
+       26C4    ‚õÑ    SNOWMAN WITHOUT SNOW
+       26C7    ‚õá    BLACK SNOWMAN
+       2744    ‚ùÑ    SNOWFLAKE
+       2745    ‚ùÖ    TIGHT TRIFOLIATE SNOWFLAKE
+       2746    ‚ùÜ    HEAVY CHEVRON SNOWFLAKE
+      1F3C2    Ì†ºÌøÇ    SNOWBOARDER
 
 ## LICENSE:
 
