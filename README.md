@@ -4,7 +4,7 @@ by Lin Jen-Shin <http://godfat.org>
 
 ## LINKS:
 
-* [github](http://github.com/godfat/unigrep)
+* [github](https://github.com/godfat/unigrep)
 * [rubygems](http://rubygems.org/gems/unigrep)
 
 ## DESCRIPTION:
