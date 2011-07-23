@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'unigrep'
+
+if ARGV.empty?
+  puts "Usage: unigrep pattern"
+else
+  puts Unigrep.unigrep(ARGV.join(' '))
+end
