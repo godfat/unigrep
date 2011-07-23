@@ -26,14 +26,13 @@ Print Unicode information matching description. (grep Unicode data)
 
 ## EXAMPLE:
 
-    $ unigrep snow
+    $ unigrep 'snowman|snowflake'
        2603    ‚òÉ    SNOWMAN
        26C4    ‚õÑ    SNOWMAN WITHOUT SNOW
        26C7    ‚õá    BLACK SNOWMAN
        2744    ‚ùÑ    SNOWFLAKE
        2745    ‚ùÖ    TIGHT TRIFOLIATE SNOWFLAKE
        2746    ‚ùÜ    HEAVY CHEVRON SNOWFLAKE
-      1F3C2    Ì†ºÌøÇ    SNOWBOARDER
 
 ## LICENSE:
 
