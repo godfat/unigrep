@@ -1,5 +1,2 @@
-tmp
-pkg
-doc
-
+/pkg/
 *.rbc
